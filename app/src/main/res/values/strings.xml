@@ -6,5 +6,8 @@
     <string name="btnLogin">Login</string>
     <string name="enter_username">Enter username</string>
     <string name="enter_password">Enter Password</string>
+    <string name="ContactScreen">Contact us</string>
+    <string name="AboutScreen">About us</string>
+    <string name="LoginScreen">Login</string>
 
 </resources>
