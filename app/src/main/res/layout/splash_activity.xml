@@ -18,8 +18,9 @@
 
         <ImageView
             android:id="@+id/imgSplashicon"
-            android:layout_width="match_parent"
+            android:layout_width="312dp"
             android:layout_height="wrap_content"
+            android:contentDescription="TODO"
             app:srcCompat="@mipmap/splashicon" />
     </LinearLayout>
 

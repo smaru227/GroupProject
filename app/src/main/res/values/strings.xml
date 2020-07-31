@@ -7,4 +7,16 @@
     <string name="enter_username">Enter username</string>
     <string name="enter_password">Enter Password</string>
 
+    <string name="name">Name:</string>
+    <string name="mobile">Mobile No.:</string>
+    <string name="email">Email:</string>
+    <string name="bName">Bhargavkumar Nakrani</string>
+    <string name="sName">Sanket Panasuriya</string>
+    <string name="mName">Sunil Maru</string>
+    <string name="bEmail">bnakrani833@rku.ac.in</string>
+    <string name="sEmail">spanasuriya892@rku.ac.in</string>
+    <string name="mEmail">smaru123@rku.ac.in</string>
+    <string name="bMobile">7984551549</string>
+    <string name="sMobile">1234567890</string>
+    <string name="mMobile">0987654321</string>
 </resources>
