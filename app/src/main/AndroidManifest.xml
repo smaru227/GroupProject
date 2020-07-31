@@ -9,15 +9,21 @@
         android:roundIcon="@mipmap/applogo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ContactActivity"></activity>
-        <activity android:name=".AboutActivity" />
-        <activity android:name=".LoginActivity">
+        <activity android:name=".ContactActivity"
+            android:label="@string/ContactScreen"/>
+        <activity android:name=".AboutActivity"
+            android:label="@string/AboutScreen"/>
+        <activity android:name=".splashActivity"
+           android:screenOrientation="portrait">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
         </activity>
+        <activity android:name=".LoginActivity"
+            android:label="@string/LoginScreen"/>
     </application>
+
 
 </manifest>
