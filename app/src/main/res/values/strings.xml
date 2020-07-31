@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Group Project</string>
+    <string name="Login">User Login</string>
+    <string name="username">User name</string>
+    <string name="password">Pasword</string>
+    <string name="btnLogin">Login</string>
+    <string name="enter_username">Enter username</string>
+    <string name="enter_password">Enter Password</string>
+
 </resources>
