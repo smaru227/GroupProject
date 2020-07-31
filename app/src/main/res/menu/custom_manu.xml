@@ -9,5 +9,5 @@
         android:title="About us" />
     <item
         android:id="@+id/manuContact"
-        android:title="contact us" />
+        android:title="Contact us" />
 </menu>
