@@ -12,7 +12,7 @@ import android.os.Handler;
 import android.view.View;
 import android.view.WindowManager;
 
-public class splashActivity extends AppCompatActivity {
+public class splashActivity extends Activity {
     private Handler mWaitHandler = new Handler();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
