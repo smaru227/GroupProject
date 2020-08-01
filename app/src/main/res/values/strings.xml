@@ -9,6 +9,7 @@
     <string name="ContactScreen">Contact us</string>
     <string name="AboutScreen">About us</string>
     <string name="LoginScreen">Login</string>
+    <string name="imgLogo">Logo Image</string>
 
     <string name="name">Name:</string>
     <string name="mobile">Mobile No.:</string>
