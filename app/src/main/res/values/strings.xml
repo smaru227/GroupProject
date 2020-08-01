@@ -25,5 +25,7 @@
     <string name="mMobile">9510127515</string>
     <string name="loginDes">Login Content</string>
 
+    <string name="gender">Gender:</string>
+    <string name="city">City:</string>
 
 </resources>
