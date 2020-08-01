@@ -27,5 +27,10 @@
 
     <string name="gender">Gender:</string>
     <string name="city">City:</string>
+    <string name="companyName">Git Developers</string>
+    <string name="contentDiscription">TODO</string>
+    <string name="pincode">395010</string>
+    <string name="cityState">Surat,Gujarat.</string>
+    <string name="officeAddress">35, Sitanagar Chowk, Punagam,</string>
 
 </resources>
