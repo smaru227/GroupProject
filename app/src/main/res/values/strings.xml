@@ -23,4 +23,5 @@
     <string name="bMobile">7984551549</string>
     <string name="sMobile">1234567890</string>
     <string name="mMobile">9510127515</string>
+    <string name="loginDes">Login Content</string>
 </resources>
