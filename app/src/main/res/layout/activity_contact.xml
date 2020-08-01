@@ -26,8 +26,8 @@
 
             <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/img1"
-                android:layout_width="230dp"
-                android:layout_height="170dp"
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
                 android:layout_marginStart="5dp"
                 android:layout_weight="1"
                 android:src="@drawable/ic_launcher_background"
@@ -69,6 +69,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:gravity="center"
                     android:orientation="horizontal">
 
                     <TextView
@@ -159,6 +160,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:gravity="center"
                     android:orientation="horizontal">
 
                     <TextView
@@ -204,7 +206,7 @@
 
             <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/img2"
-                android:layout_width="227dp"
+                android:layout_width="170dp"
                 android:layout_height="match_parent"
                 android:layout_marginEnd="5dp"
                 android:layout_weight="1"
@@ -227,7 +229,7 @@
 
             <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/img3"
-                android:layout_width="227dp"
+                android:layout_width="170dp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="5dp"
                 android:layout_weight="1"
@@ -269,6 +271,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:gravity="center"
                     android:orientation="horizontal">
 
                     <TextView

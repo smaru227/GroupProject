@@ -15,7 +15,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <TextView
@@ -73,7 +73,8 @@
                             android:layout_height="144dp"
                             android:layout_gravity="center"
                             android:layout_marginTop="20dp"
-                            card_view:srcCompat="@drawable/login_icon" />
+                            card_view:srcCompat="@drawable/login_icon"
+                            android:contentDescription="@string/loginDes" />
 
                         <LinearLayout
                             android:id="@+id/linearLayout"
