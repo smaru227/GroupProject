@@ -30,7 +30,7 @@ public class splashActivity extends Activity {
                     e.printStackTrace();
                 }
             }
-        },1000);
+        },2000);
     }
     public void onDestroy(){
         super.onDestroy();
