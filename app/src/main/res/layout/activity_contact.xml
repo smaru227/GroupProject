@@ -14,11 +14,10 @@
         <LinearLayout
             android:id="@+id/linearLayout3"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="175dp"
             android:layout_marginTop="30dp"
             android:layout_marginBottom="30dp"
             android:orientation="horizontal"
-            android:paddingTop="20dp"
             app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -28,9 +27,9 @@
                 android:id="@+id/img1"
                 android:layout_width="170dp"
                 android:layout_height="match_parent"
-                android:layout_marginStart="5dp"
+                android:layout_marginStart="10dp"
                 android:layout_weight="1"
-                android:src="@drawable/ic_launcher_background"
+                android:src="@drawable/photo"
                 app:civ_border_color="#FF000000"
                 app:civ_border_width="2dp"
                 tools:ignore="MissingConstraints" />
@@ -55,7 +54,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1.4"
                         android:text="@string/name"
-                        android:textSize="21sp" />
+                        android:textSize="21sp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/mName"
@@ -78,7 +78,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1.4"
                         android:text="@string/mobile"
-                        android:textSize="21sp" />
+                        android:textSize="21sp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/mMobile"
@@ -100,7 +101,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1.4"
                         android:text="@string/email"
-                        android:textSize="21sp" />
+                        android:textSize="21sp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/sEmail"
@@ -119,13 +121,23 @@
             android:id="@+id/linearLayout2"
             android:layout_width="match_parent"
             android:layout_height="170dp"
-            android:layout_marginTop="10dp"
             android:layout_marginBottom="30dp"
             android:orientation="horizontal"
             app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img2"
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/photo"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp"
+                tools:ignore="MissingConstraints" />
 
             <LinearLayout
                 android:layout_width="508dp"
@@ -146,7 +158,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1.4"
                         android:text="@string/name"
-                        android:textSize="21sp" />
+                        android:textSize="21sp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/nameB"
@@ -169,7 +182,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1.4"
                         android:text="@string/mobile"
-                        android:textSize="21sp" />
+                        android:textSize="21sp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/bMobile"
@@ -191,7 +205,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1.4"
                         android:text="@string/email"
-                        android:textSize="21sp" />
+                        android:textSize="21sp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/bEmail"
@@ -204,23 +219,13 @@
 
             </LinearLayout>
 
-            <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/img2"
-                android:layout_width="170dp"
-                android:layout_height="match_parent"
-                android:layout_marginEnd="5dp"
-                android:layout_weight="1"
-                android:src="@drawable/img_bhargav"
-                app:civ_border_color="#FF000000"
-                app:civ_border_width="2dp"
-                tools:ignore="MissingConstraints" />
-
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/linearLayout4"
             android:layout_width="match_parent"
             android:layout_height="170dp"
+            android:layout_marginBottom="30dp"
             android:orientation="horizontal"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -231,9 +236,9 @@
                 android:id="@+id/img3"
                 android:layout_width="170dp"
                 android:layout_height="match_parent"
-                android:layout_marginStart="5dp"
+                android:layout_marginStart="10dp"
                 android:layout_weight="1"
-                android:src="@drawable/ic_launcher_background"
+                android:src="@drawable/photo"
                 app:civ_border_color="#FF000000"
                 app:civ_border_width="2dp"
                 tools:ignore="MissingConstraints" />
@@ -257,7 +262,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1.4"
                         android:text="@string/name"
-                        android:textSize="21sp" />
+                        android:textSize="21sp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/sName"
@@ -280,7 +286,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1.4"
                         android:text="@string/mobile"
-                        android:textSize="21sp" />
+                        android:textSize="21sp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/sMobile"
@@ -303,7 +310,8 @@
                         android:layout_weight="1.4"
                         android:text="@string/email"
 
-                        android:textSize="21sp" />
+                        android:textSize="21sp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/mEmail"
